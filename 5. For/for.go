@@ -27,4 +27,8 @@ func main() {
 		fmt.Println(n)
 	}
 
+	for s := range 3 {
+		fmt.Println(s)
+	}
+
 }
