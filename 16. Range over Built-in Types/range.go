@@ -27,7 +27,8 @@ func main() {
 	}
 
 	for i, c := range "go" {
-		fmt.Println(i, c)
+		fmt.Println(i, c)         // c is unicode
+		fmt.Println(i, string(c)) // converted to string representation
 	}
 
 }
